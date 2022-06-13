@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(70,71,70);
+}
+header{
+    background-color: green;
+    height: 80px;
+    color:#fff;
+    text-align: right;
+    padding: 20px;
+}
+header span{
+    color: orange;
+}
+header ul li a:hover{
+    color:orange;
+}
+header h1{
+    float: left;
+}
+header ul li{
+    display: inline;
+    margin: 20px;
+}
+header li a{
+    text-decoration: none;
+    color: #fff;
+}
+main{
+    margin: 10px 0;
+}
+main h2{
+    font-size: 3.6em;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+main h4{
+    font-size: 2.2em;
+    margin: 10px 0;
+}
+main img{
+    width:100%;
+    margin-bottom: 10px;
+}
+p{
+    font-size: 1.5rem;
+    word-spacing: 5px;
+    line-height: 30px;
+    text-align: justify;
+}
+table{
+    font-family: arial,sans-serif;
+    border-collapse: collapse;
+    width: 75%;
+    background-color: rgb(192, 241, 192);
+    align-items: center;
+}
+td{
+    border: 7px;
+}
+table,th,td{
+    border: 1px solid black;
+    border-radius: 7px;
+    font-size: 16px;
+    height: 30px;
+    padding: 7px;
+    
+}
+.getintouch .row{
+    background-color: rgb(192, 241, 192);
+    font-size: 50px;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+}
+.getintouch .inputBox textarea{
+    justify-content: space-between;
+    padding: 7px; 
+    resize: none;
+    border-radius: 10px;
+}
+.getintouch .inputBox label{
+    border-radius: 10px;
+    font-size: 30px;
+    padding: 2px;
+}
+.getintouch .inputBox input{
+    border-radius: 10px;
+    font-size: 30px;
+    padding: 2px;
+    width: 100%;
+    border-color: aliceblue;
+}
+.getintouch .row .btn{
+    background-color: green;
+    padding: 5px;
+    font-size: 20px;
+    width: 100%;
+    border-color: rgb(99, 177, 9);  
+}
+.getintouch form{
+    width: 80%;
+    align-items: center;
+}
+.getintouch .containerbox{
+    background-color: rgb(192, 241, 192);
+    width: 100%;
+    text-align: left;
+}
+iframe{
+    float:right;
+    margin: 5px 0px 5px 25px;
+}
+.iframe .map{
+   float: none;
+   padding: 7px;
+}
+footer p{
+    width: 85%;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 450px;
+    color: #fff;
+    background-color: green;
+}
